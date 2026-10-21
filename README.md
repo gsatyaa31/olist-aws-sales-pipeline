@@ -124,7 +124,7 @@ Key results:
 - Access key was exposed during the session; handled by deleting the key at cleanup.
 
 ## 10. Cleanup
-RDS instance deleted (`12_rds_deleted.png`), IAM access key deleted, downloaded key file removed.
+RDS instance deleted (`13_rds_deleted.png`), IAM access key deleted, downloaded key file removed.
 
 ## 11. Files
-`config.py`, `upload_raw.py`, `download_raw.py`, `inspect_data.py`, `clean_data.py`, `join_data.py`, `upload_processed.py`, `curated.py`, `data_quality.py`, `load_rds.py`, `sql_reports.py`, `test_lambda.py`, `lambda_function.py`; screenshots `01`-`12`.
+`config.py`, `upload_raw.py`, `download_raw.py`, `inspect_data.py`, `clean_data.py`, `join_data.py`, `upload_processed.py`, `curated.py`, `data_quality.py`, `load_rds.py`, `sql_reports.py`, `test_lambda.py`, `lambda_function.py`; screenshots `01`-`13`.
