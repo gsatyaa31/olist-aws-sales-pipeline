@@ -123,6 +123,19 @@ Key results:
 - Lambda typos (`Body`, `Key`, `statusCode`) only surfaced at run time.
 - Access key was exposed during the session; handled by deleting the key at cleanup.
 
+## Screenshots
+| # | What it shows |
+|---|---|
+| 01-05 | S3 bucket with `raw/`, `processed/`, `curated/`, `rejected/`, `reports/` and their contents |
+| 06 | RDS tables in `salesdb` |
+| 07-09 | Results of the 5 SQL queries |
+| 10-11 | Lambda `olist-file-validator` and its S3 trigger |
+| 12 | `wrong_file.csv` moved to `rejected/` by Lambda |
+| 13 | RDS instance deleted (cleanup) |
+
+![Raw zone](screenshots/02_s3_raw.png)
+![Top states](screenshots/09_sql_q5_states.png)
+
 ## 10. Cleanup
 RDS instance deleted (`13_rds_deleted.png`), IAM access key deleted, downloaded key file removed.
 
